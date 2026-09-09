@@ -1,0 +1,26 @@
+{
+    "base_url": "https://automationexercise.com",
+
+    "positive_tests": [
+        {
+            "product": "Blue Top",
+            "quantity": 3
+        },
+        {
+            "product": "Men Tshirt",
+            "quantity": 2
+        },
+        {
+            "product": "Sleeveless Dress",
+            "quantity": 1
+        }
+    ],
+
+    "negative_tests": {
+        "invalid_login": {
+            "email": "invalid@example.com",
+            "password": "wrongpassword"
+        },
+        "invalid_product": "NonExistingProduct123"
+    }
+}
