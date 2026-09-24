@@ -12,3 +12,12 @@ venv/
 # IDE files
 .vscode/
 .idea/
+
+# Test reports
+log.html
+output.xml
+report.html
+**/log.html
+**/output.xml
+**/report.html
+
