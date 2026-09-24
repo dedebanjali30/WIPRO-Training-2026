@@ -1,0 +1,4 @@
+username,password,expected
+standard_user,secret_sauce,True
+problem_user,secret_sauce,True
+wrong_user,wrong_password,False

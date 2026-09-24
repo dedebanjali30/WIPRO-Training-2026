@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Python API Test",
+            "body": "BDD API Automation",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "title": "Second API Test",
+            "body": "Data Driven Testing",
+            "userId": 2
+        }
+    ]
+}

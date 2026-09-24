@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.13.7 on win32)" generated="2026-09-24T10:16:19.665855" rpa="false" schemaversion="5">
+<suite id="s1" name="03 Readable Scripts" source="C:\Users\deban\Desktop\1_Initial_Lab_Work\4_Robot_Framework\Codes\03_readable_scripts.robot">
+<test id="s1-t1" name="Verify Website" line="8">
+<kw name="Open Website" owner="common_keywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-24T10:16:20.580268" level="INFO">Opening browser 'Chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-24T10:16:20.579733" elapsed="6.696728"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-24T10:16:27.276989" elapsed="0.047654"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:20.577552" elapsed="6.747511"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-09-24T10:16:27.340304" level="INFO">Page title is 'Automation Testing Practice'.</msg>
+<arg>Automation Testing Practice</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-09-24T10:16:27.326207" elapsed="0.014489"/>
+</kw>
+<kw name="Close Website" owner="common_keywords" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-09-24T10:16:27.343463" elapsed="2.348784"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:27.342350" elapsed="2.350242"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:20.576082" elapsed="9.116929"/>
+</test>
+<test id="s1-t2" name="Enter User Details" line="11">
+<kw name="Open Website" owner="common_keywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-24T10:16:29.696078" level="INFO">Opening browser 'Chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-24T10:16:29.695697" elapsed="4.471185"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-24T10:16:34.167288" elapsed="0.048309"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:29.695010" elapsed="4.520848"/>
+</kw>
+<kw name="Enter User Details" owner="common_keywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-24T10:16:34.218679" level="INFO">Typing text 'Debanjali' into text field 'id=name'.</msg>
+<arg>id=name</arg>
+<arg>Debanjali</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-24T10:16:34.217761" elapsed="0.225091"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-24T10:16:34.444023" level="INFO">Typing text 'debanjali@gmail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>debanjali@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-24T10:16:34.443335" elapsed="0.196671"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:34.216827" elapsed="0.423446"/>
+</kw>
+<kw name="Close Website" owner="common_keywords" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-09-24T10:16:34.642333" elapsed="2.387762"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:34.641277" elapsed="2.389164"/>
+</kw>
+<status status="PASS" start="2026-09-24T10:16:29.694157" elapsed="7.336846"/>
+</test>
+<status status="PASS" start="2026-09-24T10:16:19.669849" elapsed="17.362738"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="03 Readable Scripts" id="s1" pass="2" fail="0" skip="0">03 Readable Scripts</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
